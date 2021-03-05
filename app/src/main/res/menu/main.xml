@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:id="@+id/action_more"
+    android:icon="@drawable/call"
+    android:title=""
+    app:showAsAction="always">
+
+    <item android:id="@+id/a1"
+        android:icon="@drawable/notification"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="1"
+        android:title="Notication"/>
+    <item android:id="@+id/a2"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/key"
+        android:title="Change Password"/>
+    <item android:id="@+id/a3"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/key"
+        android:title="App Perimisson"/>
+    <item android:id="@+id/a4"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/question_answe"
+        android:title="Ask us a Question"/>
+    <item android:id="@+id/a5"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/help"
+        android:title="Help Center"/>
+    <item android:id="@+id/a6"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/share"
+        android:title="Share"/>
+    <item android:id="@+id/a7"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/statuspage"
+        android:title="Status Page"/>
+    <item android:id="@+id/a8"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/change_log"
+        android:title="Change log"/>
+    <item android:id="@+id/a9"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/terms"
+        android:title="Terms and Conditons"/>
+    <item android:id="@+id/a10"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/privacy"
+        android:title="Privacy Policy"/>
+    <item android:id="@+id/a11"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/help_videos"
+        android:title="Help Videos"/>
+    <item android:id="@+id/a12"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/aboutus"
+        android:title="About us"/>
+    <item android:id="@+id/a13"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_update_24"
+        android:title="Update"/>
+    <item android:id="@+id/a14"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/logout"
+        android:title="Logout"/>
+
+</item>
+
+
+
+
+
+
+
+
+
+</menu>
